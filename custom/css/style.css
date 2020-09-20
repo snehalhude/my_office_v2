@@ -1,0 +1,19 @@
+.error { 
+  color : red;
+}
+
+.success { 
+  color: green;
+}
+
+.hide{
+  display: none;
+}
+
+.right_float {
+	float: right;
+}
+
+.left_float {
+	float: right;
+}

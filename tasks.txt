@@ -1,0 +1,8 @@
+1) Make a login system for admin & user using authentication (also should contain registration page) =>Done
+2) In admin make the add product system (Name, Price, Quantity & Image)
+3) Display the products added by admin in User dashboard
+4) Also, make a REST Api for the product using the access token
+
+
+login : done
+
