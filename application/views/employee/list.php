@@ -64,9 +64,9 @@
                       <td><?= $row->email ?></td>
                       <td><?= $row->phone ?></td>
                       <?php if($row->status == 0){ ?>
-                      <td  id="status<?= $row->id ?>"><button class="btn btn-xs btn-danger" onclick="return change_status(<?= $row->id ?>,<?= $row->status ?>)">Inactive</button></td>
+                      <td  id="status<?= $row->id ?>"><button class="btn btn-xs btn-danger" onclick="return change_status(<?= $row->id ?>,<?= $row->status ?>)" title="Click here to change status">Inactive</button></td>
                       <?php } else { ?>
-                      <td  id="status<?= $row->id ?>"><button class="btn btn-xs btn-success" onclick="return change_status(<?= $row->id ?>,<?= $row->status ?>)">Active</button></td>
+                      <td  id="status<?= $row->id ?>"><button class="btn btn-xs btn-success" onclick="return change_status(<?= $row->id ?>,<?= $row->status ?>)" title="Click here to change status">Active</button></td>
                       <?php } ?>
                       <td >
                         <a href="<?= site_url('view-employee/'.$row->id) ?>" class="btn btn-info btn-xs" title="View"><i class="fa fa-eye"></i></a>  | 
